@@ -25,11 +25,14 @@ with st.container():
    with text_col:
       st.markdown("**Eagle-eye view approach to maintenance**")
       st.write('''
-          Here is what I have learned so far about development in Sub Saharan Africa. I have learned that availability of Money is often not the impediment to increased investment in the region. Quite the contrary, investors are willing to invest in the region but the risks vs. reward equation must make sense. Investors are looking to invest in bankable infrastructure projects. Such projects are managed by individuals or institutions with proven track records. It is important to check these boxes. They signal certain competencies that imbue inventors with enough confidence to consider investing. They indicate that the potential risks have been considered and thought through with the necessary rigor the size of the project warrants. and reasonable returns at acceptable risk.
-         I have also learned that Technical ability to execute civil infrastructure projects is not the issue. It is often the case that Foreign and local contractors are available to do the work. Many of these contractors are world class. They come with proven track records of world-class project execution and timely delivery on their resumes.
-         I've learned that it is quite easy to build but it is difficult to shoulder the burden of maintenance. For cash strapped nations, this is often the reality. The same is true for well off neighbors experiencing a financial downturn. This leads to budget cutbacks which erodes the capacity of institutions to perform. The weak institutional will to effectively select and administer adequate maintenance policies and strategies create a major handicap.
-         It seems to me that we need completely new frameworks. I say this because there's barely proof that policies and implementation frameworks adopted from wealthier nations have produced desired outcomes. To that end, I posit that there is a budget-infrastructure mismatch. We need to create Building and Maintenance strategies from the ground up. We need strategies that allow for smaller maintenance budgets. We need to devise Hyper-efficient implementation strategies. Strategies that curtail wasted activities and resources without negatively impacting the lifespan of built assets. This means cheaper but longer lasting materials, probably of the local category.
-         #Peutingar #Infrastructure''')
+         "If you want to build a wealthy economy, you must first start by building roads". 
+         I don't recall exactly when I first heard this quote. It is an old Chinese saying, but then again, I can't be so sure. 
+         This quote resonates when you consider fast-growing nations in the last century. 
+         Much of their accomplishments were possible due to effective transportation infrastructure. 
+         Road and rail networks are essential for opening up a country's interior. 
+         This is even more so if such regions were hitherto, inaccessible. 
+         Roads foster cohesion across regions thereby facilitating trade and commerce amongst neighbors. 
+         Roads are accelerants for developing manufacturing and industrial capacity in a region.''')
 
 map_data = pd.DataFrame(
     np.random.randn(100, 2) / [50, 50] + [6.46, 3.406],
