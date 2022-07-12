@@ -2,9 +2,16 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+st.set_page_config(
+    page_title="Aborigani!",
+    page_icon="👋",
+)
+
 st.header("PEUTINGAR Labs")
 st.subheader("Datasets for Africa's Transportation Infrastructure")
 st.write("Peutingar's mission is to help institutions develop the capacity to build infrastructure projects easily, cheaply and efficiently. We do this by enabling effective and real-time decision making through cloud-enabled software and geo-spatial artificial intelligence.")
+
+st.sidebar.success("Navigate to page links above.")
 
 with st.container():
    image_col, text_col = st.columns((1,2))
@@ -64,17 +71,17 @@ option = st.selectbox(
 
 'You selected: ', option
 
-add_selectbox = st.sidebar.selectbox(
-   'Which type of Lagos neighborhoods should we investigate?',
-   ("Upper class i.e. bananna Is. V.I., Ikoyi", 
-      "Upper Mid class i.e. Lekki Ph. 1 & 2", 
-      "Lower Mid class i.e. Mainland, Ikeja", 
-      "Lower class i.e. Surulere", "Slums i.e. Makoko, Ajegunle")
-   )
-add_slider = st.sidebar.slider(
-   'Select a range of values',
-   0.0, 100.0, (25.0, 75.0)
-   )
+# add_selectbox = st.sidebar.selectbox(
+#    'Which type of Lagos neighborhoods should we investigate?',
+#    ("Upper class i.e. bananna Is. V.I., Ikoyi", 
+#       "Upper Mid class i.e. Lekki Ph. 1 & 2", 
+#       "Lower Mid class i.e. Mainland, Ikeja", 
+#       "Lower class i.e. Surulere", "Slums i.e. Makoko, Ajegunle")
+#    )
+# add_slider = st.sidebar.slider(
+#    'Select a range of values',
+#    0.0, 100.0, (25.0, 75.0)
+#    )
 
 left_column, middle_column, right_column = st.columns(3)
 # You can use a column just like st.sidebar:

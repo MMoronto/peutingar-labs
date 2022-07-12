@@ -1,30 +1,7 @@
 
-st.code('''
-   const Map = () => {
-    const origin = useSelector(selectOrigin);
+map_data = pd.DataFrame(
+    np.random.randn(100, 2) / [50, 50] + [6.46, 3.406],
+    columns=['lat', 'lon'])
 
-    return (
-    <MapView
-        style={tw`flex-1`}
-        mapType="mutedStandard"
-        initialRegion={{
-            latitude: origin.location.lat,
-            longitude: origin.location.lng,
-            latitudeDelta: 0.005,
-            longitudeDelta: 0.005,
-        }}
-    >
-        {origin?.location && (
-            <Marker 
-                coordinate={{
-                    latitude: origin.location.lat,
-                    longitude: origin.location.lng,
-                }}
-                title="Origin"
-                description={origin.description}
-                identifier="origin"
-            />
-        )}    
-    </MapView>
-  );
-};''')
+st.map(map_data)
+
