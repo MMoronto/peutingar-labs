@@ -2,17 +2,23 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+def intro():
+    import streamlit as st
+
+
+st.title("PEUTINGAR Labs")
+st.sidebar.success("Navigate to page links above.")
+
 st.set_page_config(
     page_title="Aborigani!",
     page_icon="👋",
 )
 
-st.title("PEUTINGAR Labs")
+
 st.header("PEUTINGAR Labs")
 st.subheader("Datasets for Africa's Transportation Infrastructure")
 st.write("Peutingar's mission is to help institutions develop the capacity to build infrastructure projects easily, cheaply and efficiently. We do this by enabling effective and real-time decision making through cloud-enabled software and geo-spatial artificial intelligence.")
 
-st.sidebar.success("Navigate to page links above.")
 
 with st.container():
    image_col, text_col = st.columns((1,2))
