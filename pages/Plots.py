@@ -6,9 +6,7 @@ st.set_page_config(page_title="Plots", page_icon="📈")
 
 st.markdown("# Power Tariffs Across Africa ")
 st.sidebar.header("Plots")
-st.write(
-      """"If you want to build a wealthy economy, you must first start by building roads". """
-)
+st.write(""""If you want to build a wealthy economy, you must first start by building roads". """)
 
 progress_bar = st.sidebar.progress(0)
 status_text = st.sidebar.empty()
@@ -28,7 +26,7 @@ progress_bar.empty()
 chosen = st.radio(
       'Executive action',
       ("Nuclear protocol", "High Alert", "Nuclear code"))
-   st.write(f"Trump will activate the {chosen} sequence!")
+st.write(f"Trump will activate the {chosen} sequence!")
 
 st.subheader("With a simple block of code, much can be achieved")
 st.code("const Map = () => {const origin = useSelector(selectOrigin)}; ")
