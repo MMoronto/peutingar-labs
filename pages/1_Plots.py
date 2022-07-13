@@ -1,3 +1,12 @@
+import streamlit as st
+import time
+import numpy as np
+
+st.set_page_config(page_title="Plots", page_icon="/-/")
+
+st.markdown("# Power Tariffs Across Africa ")
+st.sidebar.header("Plots")
+
 chosen = st.radio(
       'Executive action',
       ("Nuclear protocol", "High Alert", "Nuclear code"))

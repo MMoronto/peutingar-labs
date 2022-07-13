@@ -7,6 +7,7 @@ st.set_page_config(
     page_icon="👋",
 )
 
+st.title("PEUTINGAR Labs")
 st.header("PEUTINGAR Labs")
 st.subheader("Datasets for Africa's Transportation Infrastructure")
 st.write("Peutingar's mission is to help institutions develop the capacity to build infrastructure projects easily, cheaply and efficiently. We do this by enabling effective and real-time decision making through cloud-enabled software and geo-spatial artificial intelligence.")
