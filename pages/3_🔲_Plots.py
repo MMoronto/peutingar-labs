@@ -25,7 +25,8 @@ progress_bar.empty()
 
 chosen = st.radio(
       'Executive action',
-      ("Nuclear protocol", "High Alert", "Nuclear code"))
+      ("Nuclear power", "Hydro power", "Fossil power")
+      )
 st.write(f"Trump will activate the {chosen} sequence!")
 
 st.subheader("With a simple block of code, much can be achieved")
