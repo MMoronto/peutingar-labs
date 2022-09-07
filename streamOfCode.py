@@ -50,7 +50,7 @@ with st.container():
 with st.container():
    image_col, text_col = st.columns((1,2))
    with image_col:
-      st.image("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1575660327927x644858521477206700%2Fhttp_%25252F%25252Fcdn.cnn.com%25252Fcnnnext%25252Fdam%25252Fassets%25252F180518162730-edward-burtynsky-lagos.jpg?w=2048&h=941&auto=compress&dpr=1&fit=max")
+      st.image("https://www.researchgate.net/profile/Sergio-Oliete-Josa/publication/322258475/figure/fig1/AS:593694713458689@1518559258802/PIDAs-transport-network-plan-PIDA-2012-TAH-Trans-African-Highway.png")
    with text_col:
       st.markdown("**Trans African Transportation Networks**")
       st.write('''
