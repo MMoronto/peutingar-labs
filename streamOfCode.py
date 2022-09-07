@@ -54,7 +54,7 @@ with st.container():
    with text_col:
       st.markdown("**Trans African Transportation Networks**")
       st.write('''
-         "I have seen and heard quite a number of media sources talk about trans African 
+         I have seen and heard quite a number of media sources talk about trans African 
          highways and railway lines. The voice in my head cannot help but mutter that these 
          are most likely myth than reality.  These types of projects are far from trivial. 
          They require tight coordination across multiple stake holders, and this is even 
