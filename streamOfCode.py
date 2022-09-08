@@ -70,7 +70,7 @@ with st.container():
          the continent's constituent nations is a big disadvantage. Disparate and unaligned interests amongst pertinent 
          stakeholders complicate this scenario further.
          Of all the headwinds this proposition faces, Financial risk is the most prominent. Whereas Project Financing 
-         has been manageable in the last decade, change is in the air. I suspect financing poses unique challenges as 
+         has been manageable in the last decade, change is in the air. I suspect financing will pose unique challenges as 
          the complexities of an emergent multipolar geopolitical world start to play out over the short and long terms. 
          It is conceivable that financiers from opposing geopolitical poles find a reason to acknowledge common interests 
          in funding Africa's bedrock infrastructure. A long shot? Only time will tell.
