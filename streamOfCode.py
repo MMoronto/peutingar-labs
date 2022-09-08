@@ -54,24 +54,24 @@ with st.container():
    with text_col:
       st.markdown("**Trans African Transportation Networks**")
       st.write('''
-         Lately, some media sources have been talking about trans-African highways and railway lines. The voice in my 
-         head cannot help but mutter that these talks are most likely myths than reality. These types of projects are 
-         far from trivial. They need tight coordination across many stakeholders. This is more so when multinational 
+         Lately, some media sources have been talking about trans-African highways and railway lines. The voice 
+         in my head cannot help but mutter that these talks are most likely myths than reality. These types of projects 
+         are far from trivial. They need tight coordination across many stakeholders. This is more so when multinational 
          interests are at stake.
 
          It would take a colossal effort to integrate the African continent through transport networks. Top-down, 
          command-control administration will be necessary to complete complex projects at such scale. A body with 
-         continent-wide clout & reach like the AU(African Union), on steroids, to fund and oversee every phase of 
-         the projects. National jurisdictional rights during the project's design/build phase will  belong to the body. 
+         continent-wide clout & reach like the AU(African Union), on steroids, to fund and oversee every phase of the 
+         projects. National jurisdictional rights during the project's design/build phase will  belong to the body. 
          If such an ambitious project succeeds, it would be the most daring one ever pulled off by mankind owing to the 
          sheer size of the African continent alone.
 
-         Unfortunately, such a project regardless of its benefits to humankind is improbable. The fractured nature of 
-         the continent's constituent nations is a big disadvantage. Disparate and unaligned interests amongst pertinent 
+         Unfortunately, such a project regardless of its benefits to humankind is most improbable. The fractured nature 
+         of the continent's constituent nations is a big disadvantage. Disparate and unaligned interests amongst pertinent 
          stakeholders complicate this scenario further.
-         Of all the headwinds this proposition faces, Financial risk is the most prominent. Whereas Project Financing 
-         has been manageable in the last decade, change is in the air. I suspect financing will pose unique challenges as 
-         the complexities of an emergent multipolar geopolitical world start to play out over the short and long terms. 
-         It is conceivable that financiers from opposing geopolitical poles find a reason to acknowledge common interests 
-         in funding Africa's bedrock infrastructure. A long shot? Only time will tell.
+         Of all the headwinds this proposition faces, Financial risk is the most prominent. Whereas Project Financing has been 
+         manageable in the last decade, change is in the air. I suspect that financing will pose unique challenges in the immediate 
+         future. This becomes more evident as the complexities of an emergent multipolar geopolitical world order start to play out 
+         in the short term and over the long term. It is conceivable that financiers from opposing geopolitical poles find a reason 
+         to acknowledge common interests in funding Africa's bedrock infrastructure. A long shot? Time will tell.
          ''')
