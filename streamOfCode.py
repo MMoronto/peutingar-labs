@@ -61,8 +61,8 @@ with st.container():
 
          It would take a colossal effort to integrate the African continent through transport networks. Top-down, 
          command-control administration will be necessary to complete complex projects at such scale. A body with 
-         continent-wide clout & reach like the AU(African Union), on steroids, to fund and oversee every phase of the 
-         projects. National jurisdictional rights during the project's design/build phase will  belong to the body. 
+         continent-wide clout & reach like the AU(African Union), on steroids, must fund and oversee every phase of the 
+         project. National jurisdictional rights during the project's design/build phase will  belong to the body. 
          If such an ambitious project succeeds, it would be the most daring one ever pulled off by mankind owing to the 
          sheer size of the African continent alone.
 
