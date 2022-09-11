@@ -54,8 +54,8 @@ with st.container():
    with text_col:
       st.markdown("**Trans African Transportation Networks**")
       st.write('''
-         Lately, some media sources have been talking about trans-African highways and railway lines. The voice 
-         in my head cannot help but mutter that these talks are most likely myths than reality. These types of projects 
+         Lately, there have been discussions about trans-African highways and railway lines in various media outlets. The voice 
+         in my head cannot help but mutter that these talks are more likely myths than reality. These types of projects 
          are far from trivial. They need tight coordination across many stakeholders. This is more so when multinational 
          interests are at stake.
 
