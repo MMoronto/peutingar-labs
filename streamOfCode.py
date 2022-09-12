@@ -54,10 +54,10 @@ with st.container():
    with text_col:
       st.markdown("**Trans African Transportation Networks**")
       st.write('''
-         Lately, there have been discussions about trans-African highways and railway lines in various media outlets. The voice 
-         in my head cannot help but mutter that these talks are more likely myths than reality. These types of projects 
-         are far from trivial. They need tight coordination across many stakeholders. This is more so when multinational 
-         interests are at stake.
+         Lately, there have been discussions in various media outlets about trans-African highways and railways as a means of 
+         integrating the continent. The voice in my head cannot help but mutter that these talks are more likely myths than reality. 
+          These types of projects are far from trivial. It would take tight coordination across many stakeholders to achieve success. 
+          This is even more so when multinational interests are at stake.
 
          It would take a colossal effort to integrate the African continent through transport networks. Top-down, 
          command-control administration will be necessary to complete complex projects at such scale. A body with 
