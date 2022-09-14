@@ -1,13 +1,31 @@
 import streamlit as st
-import leafmap.foliumap as leafmap
+import pandas as pd
+import numpy as np
 
-st.set_page_config(layout="wide")
 
-def app():
-    st.title("Search Basemaps")
-    st.markdown(
-        """
-    This app is a demonstration of searching and loading basemaps from [xyzservices](https://github.com/geopandas/xyzservices) and [Quick Map Services (QMS)](https://github.com/nextgis/quickmapservices). Selecting from 1000+ basemaps with a few clicks.  
-    """
-    )
+st.header("Lagos")
+st.subheader("View road report analyses")
+st.write("The state of transportation network assets.")
+
+map_data = pd.DataFrame(
+    np.random.randn(100, 2) / [50, 50] + [6.46, 3.406],
+    columns=['lat', 'lon'])
+
+st.map(map_data)
+
+
+if st.checkbox('Show dataframe'):
+    chart_data = pd.DataFrame(
+       np.random.randn(20, 3),
+       columns=['a', 'b', 'c'])
+
+    chart_data
+
+df = pd.DataFrame({
+    'first column': [1, 2, 3, 4],
+    'second column': [10, 20, 30, 40]
+    })
+
+
+
 
