@@ -4,6 +4,10 @@ import numpy as np
 import pydeck as pdk
 from urllib.error import URLError
 
+st.sidebar.radio('Segments', ['1', '2', '3'])
+st.sidebar.radio('2')
+st.sidebar.radio('3')
+
 st.header("PEUTINGAR Labs")
 st.subheader("Datasets for Africa's Transportation Infrastructure")
 st.write("Peutingar's mission is to help institutions develop the capacity to build infrastructure projects easily, cheaply and efficiently. We do this by enabling effective and real-time decision making through cloud-enabled software and geo-spatial artificial intelligence.")
