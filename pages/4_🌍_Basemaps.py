@@ -5,7 +5,7 @@ import numpy as np
 
 st.header("Lagos")
 st.subheader("View road report analyses")
-st.write("The state of transportation network assets.")
+st.write("Review transportation network assets.")
 
 col1, col2 = st.columns([1, 2])
 
