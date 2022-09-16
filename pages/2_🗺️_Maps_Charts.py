@@ -37,13 +37,13 @@ df = pd.DataFrame({
     })
 
 option = st.selectbox(
-    'Which number do you like best?',
+    'Is the road paved or not?',
      df['first column'])
 
 'You selected: ', option
 
 add_selectbox = st.selectbox(
-   'Which type of Lagos neighborhoods should we investigate?',
+   'Which type of Lagos neighborhoods are at risk of flooding?',
    ("Upper class i.e. bananna Is. V.I., Ikoyi", 
       "Upper Mid class i.e. Lekki Ph. 1 & 2", 
       "Lower Mid class i.e. Mainland, Ikeja", 
@@ -56,20 +56,20 @@ add_slider = st.slider(
 
 left_column, middle_column, right_column = st.columns(3)
 # You can use a column just like st.sidebar:
-left_column.button('Press me!')
-middle_column.button('Unpress me!!')
-right_column.button('Nuclear option!!!')
+left_column.button('Trunk A Major Artery')
+middle_column.button('State Motorway')
+right_column.button('Local Thoroghfare')
 
 with right_column:
    chosen = st.radio(
-      'Executive action',
-      ("Nuclear protocol", "High Alert", "Nuclear code"))
-   st.write(f"Trump will activate the {chosen} sequence!")
+      'Inspection Status',
+      ("Quarterly", "Annual", "Bi-annual"))
+   st.write(f"Generate the {chosen} Inspection Report")
 
 st.subheader("With a simple block of code, much can be achieved")
 # st.code("const Map = () => {const origin = useSelector(selectOrigin)}; ")
 
-st.caption("On the third day, the Lord said'Let there be code.'")
+st.caption("With the right timely data, Roads can be maitained with ease.'")
 
 
 st.write(
