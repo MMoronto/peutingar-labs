@@ -73,7 +73,8 @@ st.caption("With the right timely data, Roads can be maitained with ease.'")
 
 
 map_data = pd.DataFrame(
-    np.random.randn(1000, 2) / [50, 50] + [7.01, 3.310],
-    
+    np.random.randn(200, 2) / [50, 50] + [7.01, 3.310],
+    columns=['lat', 'lon'])
+
 st.map(map_data)
 
