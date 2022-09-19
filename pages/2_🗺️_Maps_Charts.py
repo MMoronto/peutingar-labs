@@ -58,7 +58,7 @@ left_column, middle_column, right_column = st.columns(3)
 # You can use a column just like st.sidebar:
 left_column.button('Trunk A Major Artery')
 middle_column.button('State Motorway')
-right_column.button('Local Thoroghfare')
+right_column.button('Local Thoroughfare')
 
 with right_column:
    chosen = st.radio(
