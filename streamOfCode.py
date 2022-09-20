@@ -19,6 +19,7 @@ st.write("Peutingar's mission is to help institutions develop the capacity to bu
 
 
 with st.container():
+   st.image('''./image1-.png''')
    image_col, text_col = st.columns((1,2))
    with image_col:
       st.image('''https://mcusercontent.com/9af560008b578528e07445390/images/706e1762-4543-a736-76ec-12e92faa3a5f.jpg''')
