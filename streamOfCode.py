@@ -53,10 +53,30 @@ with st.container():
 
 with st.container():
    st.subheader("**Trans African Transportation Networks**")
+   st.write()
    st.image('''./image2-.png''')
    image_col, text_col = st.columns((1,2))
    with image_col:
       st.image("https://www.researchgate.net/profile/Sergio-Oliete-Josa/publication/322258475/figure/fig1/AS:593694713458689@1518559258802/PIDAs-transport-network-plan-PIDA-2012-TAH-Trans-African-Highway.png")
+      map_data = pd.DataFrame(
+          np.random.randn(100, 2) / [50, 50] + [6.46, 3.406],
+          columns=['lat', 'lon'])
+
+      st.map(map_data)
+
+      x = st.slider('x')  # 👈 this is a widget
+
+      if st.checkbox('Show dataframe'):
+          chart_data = pd.DataFrame(
+             np.random.randn(20, 3),
+             columns=['a', 'b', 'c'])
+
+          chart_data
+
+      df = pd.DataFrame({
+          'first column': [1, 2, 3, 4],
+          'second column': [10, 20, 30, 40]
+          })
    with text_col:
       # st.markdown("**Trans African Transportation Networks**")
       st.write('''
