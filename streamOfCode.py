@@ -33,11 +33,14 @@ with st.container():
          prioritized thus saving man hours and budget.''')
 
 with st.container():
+   st.subheader("**Eagle-eye view approach to maintenance**")
+   st.image("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1575660327927x644858521477206700%2Fhttp_%25252F%25252Fcdn.cnn.com%25252Fcnnnext%25252Fdam%25252Fassets%25252F180518162730-edward-burtynsky-lagos.jpg?w=2048&h=941&auto=compress&dpr=1&fit=max")
    image_col, text_col = st.columns((1,2))
    with image_col:
       st.image("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1575660327927x644858521477206700%2Fhttp_%25252F%25252Fcdn.cnn.com%25252Fcnnnext%25252Fdam%25252Fassets%25252F180518162730-edward-burtynsky-lagos.jpg?w=2048&h=941&auto=compress&dpr=1&fit=max")
+      st.image("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1575660327927x644858521477206700%2Fhttp_%25252F%25252Fcdn.cnn.com%25252Fcnnnext%25252Fdam%25252Fassets%25252F180518162730-edward-burtynsky-lagos.jpg?w=2048&h=941&auto=compress&dpr=1&fit=max")
    with text_col:
-      st.markdown("**Eagle-eye view approach to maintenance**")
+      # st.markdown("**Eagle-eye view approach to maintenance**")
       st.write('''
          "If you want to build a wealthy economy, you must first start by building roads". 
          I don't recall exactly when I first heard this quote. It is an old Chinese saying, but then again, I can't be so sure. 
@@ -49,11 +52,13 @@ with st.container():
          Roads are accelerants for developing manufacturing and industrial capacity in a region.''')
 
 with st.container():
+   st.subheader("**Trans African Transportation Networks**")
+   st.image('''./image2-.png''')
    image_col, text_col = st.columns((1,2))
    with image_col:
       st.image("https://www.researchgate.net/profile/Sergio-Oliete-Josa/publication/322258475/figure/fig1/AS:593694713458689@1518559258802/PIDAs-transport-network-plan-PIDA-2012-TAH-Trans-African-Highway.png")
    with text_col:
-      st.markdown("**Trans African Transportation Networks**")
+      # st.markdown("**Trans African Transportation Networks**")
       st.write('''
          Lately, there have been discussions in various media outlets about trans-African highways and railways as a means of 
          integrating the continent. The voice in my head cannot help but mutter that these talks are more likely myths than reality. 
