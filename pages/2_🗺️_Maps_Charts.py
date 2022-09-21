@@ -85,7 +85,7 @@ with st.expander("See source code"):
     with st.echo():
 
         m = leafmap.Map(center=[6.52, 3.316], zoom=4)
-        cities = './GRID3_Nigeria_-_Factories_and_Industrial_Sites.csv'
+        cities = './GRID3_Nigeria_-_Factories_and_Industrial_SitesA.csv'
         regions = './GRID3_Nigeria_-_Factories_and_Industrial_Sites.geojson'
 
         m.add_geojson(regions, layer_name='Nig Industrial Sites')
