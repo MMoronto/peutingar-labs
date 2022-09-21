@@ -73,23 +73,23 @@ st.subheader("With a simple block of code, much can be achieved")
 st.caption("With the right timely data, Roads can be maitained with ease.'")
 
 
-map_data = pd.DataFrame(
-    np.random.randn(200, 2) / [50, 50] + [7.01, 3.310],
-    columns=['lat', 'lon'])
+# map_data = pd.DataFrame(
+#     np.random.randn(200, 2) / [50, 50] + [7.01, 3.310],
+#     columns=['lat', 'lon'])
 
-st.map(map_data)
+# st.map(map_data)
 
 st.write("Peutingar's mission is to help institutions develop the capacity to build infrastructure projects easily, cheaply and efficiently. We do this by enabling effective and real-time decision making through cloud-enabled software and geo-spatial artificial intelligence.")
 m = leafmap.Map(center=[6.52, 3.316], zoom=4)
 cities = './GRID3_Nigeria_-_Factories_and_Industrial_Sites.csv'
-regions = './GRID3_Nigeria_-_Factories_and_Industrial_Sites.geojson'
+state_name = './GRID3_Nigeria_-_Factories_and_Industrial_Sites.geojson'
 
-m.add_geojson(regions, layer_name='US Regions')
+m.add_geojson(state_name, layer_name='Nig Industrial Sites')
 m.add_points_from_xy(
     cities,
     x="longitude",
     y="latitude",
-    color_column='region',
+    color_column='state_name',
     icon_names=['gear', 'map', 'leaf', 'globe'],
     spin=True,
     add_legend=True,
