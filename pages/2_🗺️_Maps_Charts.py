@@ -94,7 +94,7 @@ with st.expander("See source code"):
             x="longitude",
             y="latitude",
             # color_column='state_name',
-            # icon_names=['gear', 'map', 'leaf', 'globe'],
+            icon_names=['gear', 'map', 'leaf', 'globe'],
             spin=True,
             add_legend=True,
         )
