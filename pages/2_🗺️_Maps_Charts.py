@@ -86,7 +86,7 @@ with st.expander("See source code"):
 
         m = leafmap.Map(center=[6.52, 3.316], zoom=4)
         cities = './GRID3_Nigeria_-_Factories_and_Industrial_SitesA.csv'
-        regions = './GRID3_Nigeria_-_Factories_and_Industrial_Sites.geojson'
+        regions = './GRID3_Nigeria_-_Factories_and_Industrial_SitesA.geojson'
 
         m.add_geojson(regions, layer_name='Nig Industrial Sites')
         m.add_points_from_xy(
@@ -94,9 +94,9 @@ with st.expander("See source code"):
             x="longitude",
             y="latitude",
             # color_column='state_name',
-            icon_names=['gear', 'map', 'leaf', 'globe'],
+            # icon_names=['gear', 'map', 'leaf', 'globe'],
             spin=True,
             add_legend=True,
         )
 
-m.to_streamlit(height=200)
+m.to_streamlit(height=600)
