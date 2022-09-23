@@ -15,7 +15,8 @@ st.sidebar.success("Navigate to page links above.")
 
 # st.header("PEUTINGAR Labs")
 st.subheader("Datasets for Africa's Transportation Infrastructure")
-st.write("Peutingar's mission is to help institutions develop the capacity to build infrastructure projects easily, cheaply and efficiently. We do this by enabling effective and real-time decision making through cloud-enabled software and geo-spatial artificial intelligence.")
+# st.write("Peutingar's mission is to help institutions develop the capacity to build infrastructure projects easily, cheaply and efficiently. We do this by enabling effective and real-time decision making through cloud-enabled software and geo-spatial artificial intelligence.")
+st.write("Peutingar's mission is to help the world's fastest growing cities pave every dirt road and maintain all paved roads in the cheapest and most efficient way possible by providing access to relevant, frequently updated and affordable data at scale.")
 
 
 with st.container():
