@@ -27,11 +27,11 @@ with st.container():
    with text_col:
       st.markdown("**Paradigm shift in infrastructure maintenance management**")
       st.write('''
-         The burden of maintenance can be alleviated in countries that often 
-         lack financial resources to conduct routine work on existing infrastructure 
-         by enabling the monitoring of certain infrastructure at scale with minimum 
+         The burden of maintenance can be alleviated in countries that lack
+         financial resources to conduct routine work on existing infrastructure 
+         by enabling the monitoring of critical infrastructure at scale with minimum 
          deployment of ground teams. This way troubled spots are targeted and 
-         prioritized thus saving man hours and budget.''')
+         prioritized thus saving man hours and stretching limited budgets.''')
 
 with st.container():
    st.subheader("**Eagle-eye view approach to maintenance**")
