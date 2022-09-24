@@ -4,7 +4,7 @@ import numpy as np
 
 st.set_page_config(page_title="Plots", page_icon="📈")
 
-st.markdown("# Power Tariffs Across Africa ")
+st.markdown("# Trade Estimates for the Road Networks Converging into Cities ")
 st.sidebar.header("Plots")
 st.write(""""If you want to build a wealthy economy, you must first start by building roads". """)
 
