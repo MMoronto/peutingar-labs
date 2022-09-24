@@ -24,10 +24,10 @@ for i in range(1, 101):
 progress_bar.empty()
 
 chosen = st.radio(
-      'Executive action',
-      ("Nuclear power", "Hydro power", "Fossil power")
+      'Network overview',
+      ("Primary networks", "Secondary networks", "Intermediate routes")
       )
-st.write(f"Trump will activate the {chosen} sequence!")
+st.write(f"Trade estimates for {chosen} converging into cities")
 
 st.subheader("With a simple block of code, much can be achieved")
 st.code("const Map = () => {const origin = useSelector(selectOrigin)}; ")
