@@ -104,10 +104,10 @@ with st.container():
          ''')
 with st.container():
    st.subheader("**Prioritizing the Discipline of Maintenance**")
-   st.image("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1575660327927x644858521477206700%2Fhttp_%25252F%25252Fcdn.cnn.com%25252Fcnnnext%25252Fdam%25252Fassets%25252F180518162730-edward-burtynsky-lagos.jpg?w=2048&h=941&auto=compress&dpr=1&fit=max")
+   st.image("./image_6.png")
    image_col, text_col = st.columns((1,2))
    with image_col:
-      st.image('''./image1-.png''')
+      st.image('''./image_7.png''')
       st.image('''./image4-.png''')
    with text_col:
       # st.markdown("**Eagle-eye view approach to maintenance**")
