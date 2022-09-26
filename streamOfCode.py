@@ -102,3 +102,34 @@ with st.container():
          in the short term and over the long term. It is conceivable that financiers from opposing geopolitical poles find a reason 
          to acknowledge common interests in funding Africa's bedrock infrastructure. A long shot? Time will tell.
          ''')
+with st.container():
+   st.subheader("**Prioritizing the Discipline of Maintenance**")
+   st.image("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1575660327927x644858521477206700%2Fhttp_%25252F%25252Fcdn.cnn.com%25252Fcnnnext%25252Fdam%25252Fassets%25252F180518162730-edward-burtynsky-lagos.jpg?w=2048&h=941&auto=compress&dpr=1&fit=max")
+   image_col, text_col = st.columns((1,2))
+   with image_col:
+      st.image('''./image1-.png''')
+      st.image('''./image4-.png''')
+   with text_col:
+      # st.markdown("**Eagle-eye view approach to maintenance**")
+      st.write('''
+         As infrastructure projects keep cropping up across the African sub-continent one has to wonder what frameworks are being put 
+         in place to cultivate the discipline of maintenance and nurture the idea of maintenance into a fully ingrained maintenance 
+         culture. On a more tactical level, the relevant questions about the performance of maintenance must be addressed. These 
+         questions must be answered coherently. Who will do the maintenance? When will it be done? How frequently? What tools and 
+         resources will be necessary to get it done? What happens if these resources are not unavailable? How much will it cost? 
+         Where does the money come from? What contingencies are there for funding  when economic downturns occur?
+
+         In what way can earth observation and geospatial datascience help create a culture of maintenance? I imagine a world where 
+         periodic and consistent monitoring of transport infrastructure is possible because of the availability of affordable satellite 
+         imagery. A world where processing of relevant data  is automated, actionable insights are extracted with ease, and seamlessly 
+         delivered at scale. This naturally eliminates several costly steps in the customary long and drawn out inspection process. 
+         These periodic inspection processes are indispensable when identifying the health of road networks. 
+
+         How would one go about sowing the seeds of a movement that pushes the adoption of infrastructure maintenance so much so 
+         that it becomes a culture. What initiatives must be enacted to emphasize the importance of maintaining built infrastructure? 
+         How does one convince stakeholders to prioritize maintenance as an essential practice amongst other essentials that vie 
+         constantly for the top slot on a region's hierarchy of needs? it appears to be a hard sell at first blush. But what if, 
+         just what if the same mechanisms that have allowed for the behavior changes required to embrace new technologies can be 
+         harnessed for more practical societal benefits?
+         ''')
+
