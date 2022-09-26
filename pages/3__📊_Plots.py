@@ -28,6 +28,7 @@ chosen = st.radio(
       ("Primary networks", "Secondary networks", "Intermediate routes")
       )
 st.write(f"Trade estimates for {chosen} converging into cities")
+st.image('''./image5.png''')
 
 st.subheader("With a simple block of code, much can be achieved")
 st.code("const Map = () => {const origin = useSelector(selectOrigin)}; ")
