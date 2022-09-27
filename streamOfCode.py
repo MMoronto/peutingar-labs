@@ -116,7 +116,7 @@ with st.container():
          in place to cultivate the discipline of maintenance and nurture the idea of maintenance into a fully ingrained maintenance 
          culture. On a more tactical level, the relevant questions about the performance of maintenance must be addressed. These 
          questions must be answered coherently. Who will do the maintenance? When will it be done? How frequently? What tools and 
-         resources will be necessary to get it done? What happens if these resources are not unavailable? How much will it cost? 
+         resources will be necessary to get it done? What happens if these resources are not available? How much will it cost? 
          Where does the money come from? What contingencies are there for funding  when economic downturns occur?
 
          In what way can earth observation and geospatial datascience help create a culture of maintenance? I imagine a world where 
