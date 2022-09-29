@@ -108,7 +108,7 @@ with st.container():
    image_col, text_col = st.columns((1,2))
    with image_col:
       st.image('''./image_7.png''')
-      st.image('''./image4-.png''')
+      st.image('''./image8.png''')
    with text_col:
       # st.markdown("**Eagle-eye view approach to maintenance**")
       st.write('''
