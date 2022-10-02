@@ -46,7 +46,7 @@ with st.container():
          "If you want to build a wealthy economy, you must first start by building roads". 
          I don't recall exactly when I first heard this quote. It is an old Chinese saying, but then again, I can't be so sure. 
          This quote resonates when you consider the nations that have grown the fastest in the last century. 
-         Much of their accomplishments were possible due to effective transportation infrastructure. 
+         Much of their accomplishments were possible due to the implementation of effective transportation infrastructure. 
          Road and rail networks are essential for opening up a country's interior. 
          This is even more so if such regions were hitherto, inaccessible. 
          Roads foster cohesion across regions thereby facilitating trade and commerce amongst neighbors. 
