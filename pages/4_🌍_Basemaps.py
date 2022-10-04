@@ -37,16 +37,18 @@ with col1:
 
 
 with col2:
-    m = folium.Map(location=[6.46, 3.406], zoom_start=16)
+    m = folium.Map(location=[6.45363, 3.39803], tiles="Stamen Toner",zoom_start=12.5)
     folium.Marker(
-        [6.45363, 3.39803],
+        location=[6.45363, 3.39803],
         popup="Eyo Masquerade Statue",
+        icon=folium.Icon(color="green", icon="cloud"),
         tooltip="Eyo Masquerade Statue"
         ).add_to(m)
 
     folium.Marker(
         [6.45464, 3.39219],
         popup="Tinubu Square",
+        icon=folium.Icon(color="green", icon="cloud"),
         tooltip="Tinubu Square"
         ).add_to(m)
 
