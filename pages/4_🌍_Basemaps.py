@@ -39,9 +39,15 @@ with col1:
 with col2:
     m = folium.Map(location=[6.46, 3.406], zoom_start=16)
     folium.Marker(
-        [6.46, 3.406],
-        popup="Eyo Masquerade",
-        tooltip="Eyo Masquerade"
+        [6.45363, 3.39803],
+        popup="Eyo Masquerade Statue",
+        tooltip="Eyo Masquerade Statue"
+        ).add_to(m)
+
+    folium.Marker(
+        [6.45464, 3.39219],
+        popup="Tinubu Square",
+        tooltip="Tinubu Square"
         ).add_to(m)
 
     st_data = st_folium(m, width = 725)
