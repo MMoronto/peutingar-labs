@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import folium
 
 
 st.header("Lagos")
@@ -31,6 +32,11 @@ with col1:
         'first column': [1, 2, 3, 4],
         'second column': [10, 20, 30, 40]
         })
+
+
+
+
+m = folium.Map(location=[6.46, 3.406])
 
 
 
