@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from streamlit_folium import st_folium
 import folium
 
 
@@ -35,8 +36,21 @@ with col1:
 
 
 
+with col2:
+    map_data = pd.DataFrame(
+        np.random.randn(100, 2) / [50, 50] + [6.46, 3.406],
+        columns=['lat', 'lon'])
 
-m = folium.Map(location=[6.46, 3.406])
+    st.map(map_data)
+
+    m = folium.Map(location=[6.46, 3.406], zoom_start=16)
+    folium.Marker(
+        [6.46, 3.406],
+        popup="Eyo Masquerade",
+        tooltip="Eyo Masquerade"
+        ).add_to(m)
+
+    st_data = st_folium(m, width = 725)
 
 
 
