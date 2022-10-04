@@ -37,12 +37,6 @@ with col1:
 
 
 with col2:
-    map_data = pd.DataFrame(
-        np.random.randn(100, 2) / [50, 50] + [6.46, 3.406],
-        columns=['lat', 'lon'])
-
-    st.map(map_data)
-
     m = folium.Map(location=[6.46, 3.406], zoom_start=16)
     folium.Marker(
         [6.46, 3.406],
