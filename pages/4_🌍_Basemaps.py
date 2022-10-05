@@ -55,13 +55,12 @@ with col2:
 
     st_data = st_folium(m, width = 725)
 
-    fig1=Figure(height=525,width=725)
-    m1=folium.Map(location=[6.45363, 3.39803], tiles="cartodbpositron",zoom_start=13.5)
-    fig1.add_child(m1)
-    coord_1=[
-    [3.39469,6.547502],[3.394657,6.547417],[3.394657,6.547331],
-    [3.394631,6.547238],
-    [3.394598,6.547153],[3.394572,6.54707],[3.394569,6.546985],
+# fig1=Figure(height=525,width=725)
+# m1=folium.Map(location=[6.45363, 3.39803], tiles="cartodbpositron",zoom_start=13.5)
+# fig1.add_child(m1)
+with col2:
+    coord_1=[[3.39469,6.547502],[3.394657,6.547417],[3.394657,6.547331],
+    [3.394631,6.547238],[3.394598,6.547153],[3.394572,6.54707],[3.394569,6.546985],
     [3.394555,6.546894],[3.394542,6.546806],[3.394513,6.546716], 
     [3.394486,6.54663],[3.394462,6.546548],[3.394435,6.546457],
     [3.3944,6.54638],[3.394378,6.546292],[3.394341,6.546209],
@@ -85,14 +84,20 @@ with col2:
     [3.39312,6.541786],[3.393086,6.541706],[3.393061,6.541613],
     [3.393037,6.541528],[3.393008,6.541445],[3.392984,6.541354],
     [3.392951,6.541272],[3.392946,6.541184]]
-    
+
+    fig1=Figure(height=550,width=750)
+    m1=folium.Map(location=[6.45363, 3.39803],tiles="Stamen Toner",zoom_start=13.5)
+    fig1.add_child(m1)
+
     f1=folium.FeatureGroup("Vehicle 1")
 
-    line1=folium.vector_layers.PolyLine(coord1,popup='<b>Good road section</b>',tooltip='resurfaced 2018',color='green',weight=10).add_to(f1)
+    line1=folium.vector_layers.PolyLine(coord_1,tooltip='resurfaced 2018',color='green',weight=10).add_to(f1)
 
     f1.add_to(m1)
     folium.LayerControl().add_to(m1)
     m1
+    # st_data = st_folium(m, width = 725)
+
 
 
 
