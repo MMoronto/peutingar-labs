@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from streamlit_folium import st_folium
 import folium
+from branca.element import Figure
 
 
 st.header("Lagos")
