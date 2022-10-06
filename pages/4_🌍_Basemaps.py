@@ -38,7 +38,7 @@ with col1:
 
 
 with col2:
-    m = folium.Map(location=[6.45363, 3.39803], tiles="Stamen Toner",zoom_start=13.5)
+    m = folium.Map(location=[6.45363, 3.39803], tiles="cartodbpositron",zoom_start=13.5)
     folium.Marker(
         location=[6.45363, 3.39803],
         popup="Eyo Masquerade Statue",
@@ -85,17 +85,17 @@ with col2:
     [3.393037,6.541528],[3.393008,6.541445],[3.392984,6.541354],
     [3.392951,6.541272],[3.392946,6.541184]]
 
-    fig1=Figure(height=550,width=750)
-    m1=folium.Map(location=[6.45363, 3.39803],tiles="Stamen Toner",zoom_start=13.5)
-    fig1.add_child(m1)
+    fig1=Figure()
+    m=folium.Map([6.45363, 3.39803],tiles="Stamen Toner",zoom_start=13.5)
+    fig1.add_to(m)
 
     f1=folium.FeatureGroup("Vehicle 1")
 
     line1=folium.vector_layers.PolyLine(coord_1,tooltip='resurfaced 2018',color='green',weight=10).add_to(f1)
 
-    f1.add_to(m1)
-    folium.LayerControl().add_to(m1)
-    m1
+    f1.add_to(m)
+    folium.LayerControl().add_to(m)
+    m
     # st_data = st_folium(m, width = 725)
 
 
