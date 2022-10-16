@@ -55,9 +55,9 @@ with col2:
 
     st_data = st_folium(m, width = 725)
 
-# fig1=Figure(height=525,width=725)
-# m1=folium.Map(location=[6.45363, 3.39803], tiles="cartodbpositron",zoom_start=13.5)
-# fig1.add_child(m1)
+fig1=Figure(height=525,width=725)
+m=folium.Map(location=[6.45363, 3.39803], tiles="cartodbpositron",zoom_start=13.5)
+fig1.add_child(m)
 with col2:
     coord_1=[[3.39469,6.547502],[3.394657,6.547417],[3.394657,6.547331],
     [3.394631,6.547238],[3.394598,6.547153],[3.394572,6.54707],[3.394569,6.546985],
