@@ -8,14 +8,14 @@ import numpy as np
 # )
 
 st.title("PEUTINGAR Labs")
-st.sidebar.success("Navigate to page links above.")
+# st.sidebar.success("Navigate to page links above.")
 
 
 
 
 # st.header("PEUTINGAR Labs")
 st.subheader("Datasets for Africa's Transportation Infrastructure")
-# st.write("Peutingar's mission is to help institutions develop the capacity to build infrastructure projects easily, cheaply and efficiently. We do this by enabling effective and real-time decision making through cloud-enabled software and geo-spatial artificial intelligence.")
+st.write('Morakinyo Moronto')
 st.write("Peutingar's mission is to help the Africa's fastest growing cities pave every dirt road and maintain all paved roads in the cheapest and most efficient way possible by providing access to relevant, frequently updated and affordable data at scale.")
 
 
@@ -32,9 +32,11 @@ with st.container():
          by enabling the monitoring of critical infrastructure at scale with minimum 
          deployment of ground teams. This way troubled spots are targeted and 
          prioritized thus saving man hours and stretching limited budgets.''')
+st.write('*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *')
 
 with st.container():
    st.subheader("**Eagle-eye view approach to maintenance**")
+   st.write('Morakinyo Moronto')
    st.image("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1575660327927x644858521477206700%2Fhttp_%25252F%25252Fcdn.cnn.com%25252Fcnnnext%25252Fdam%25252Fassets%25252F180518162730-edward-burtynsky-lagos.jpg?w=2048&h=941&auto=compress&dpr=1&fit=max")
    image_col, text_col = st.columns((1,2))
    with image_col:
@@ -51,10 +53,12 @@ with st.container():
          This is even more so if such regions were hitherto, inaccessible. 
          Roads foster cohesion across regions thereby facilitating trade and commerce amongst neighbors. 
          Roads are accelerants for developing manufacturing and industrial capacity in a region.''')
+st.write('*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *')
 
 with st.container():
    st.subheader("**Trans African Transportation Networks**")
-   st.write()
+   st.write('Morakinyo Moronto')
+
    st.image('''./image2-.png''')
    image_col, text_col = st.columns((1,2))
    with image_col:
@@ -102,8 +106,10 @@ with st.container():
          in the short term and over the long term. It is conceivable that financiers from opposing geopolitical poles find a reason 
          to acknowledge common interests in funding Africa's bedrock infrastructure. A long shot? Time will tell.
          ''')
+st.write('*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *')
 with st.container():
    st.subheader("**Prioritizing the Discipline of Maintenance**")
+   st.write('Morakinyo Moronto')
    st.image("./image_6.png")
    image_col, text_col = st.columns((1,2))
    with image_col:
@@ -132,4 +138,4 @@ with st.container():
          just what if the same mechanisms that have allowed for the behavior changes required to embrace new technologies can be 
          harnessed for more practical societal benefits?
          ''')
-
+st.write('*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *')
