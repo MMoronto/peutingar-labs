@@ -64,7 +64,7 @@ with st.container():
    with image_col:
       st.image("https://www.researchgate.net/profile/Sergio-Oliete-Josa/publication/322258475/figure/fig1/AS:593694713458689@1518559258802/PIDAs-transport-network-plan-PIDA-2012-TAH-Trans-African-Highway.png")
       map_data = pd.DataFrame(
-          np.random.randn(100, 2) / [50, 50] + [6.46, 3.406],
+          np.random.randn(100, 2) / [1, 1] + [6.46, 3.406],
           columns=['lat', 'lon'])
 
       st.map(map_data)
