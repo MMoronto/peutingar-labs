@@ -139,3 +139,33 @@ with st.container():
          harnessed for more practical societal benefits?
          ''')
 st.write('*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *')
+with st.container():
+   st.subheader("**The Burden of Maintaining Sub-Saharan Africa's Roads**")
+   st.write('Morakinyo Moronto')
+   st.image("./image_6.png")
+   image_col, text_col = st.columns((1,2))
+   with image_col:
+      st.image('''./image_7.png''')
+      st.image('''./image8.png''')
+   with text_col:
+      # st.markdown("**Eagle-eye view approach to maintenance**")
+      st.write('''
+It is hardly  news that the entire region of sub-Saharan Africa has less municipal and civil infrastructure than some individual states in the continental USA. In my previous posts, i attempted to frame the most obvious issues which stymie the development of robust municipal infrastructure on the sub continent. I showcased obvious and some not so obvious situations that continue to hobble the maintenance of its existing infrastructure and impede the expansion of its vital transportation networks. one of the more obvious conclusions was that roads are expensive to build and even more expensive and operationally demanding to maintain.  With this in mind, we'll explore the nature of these challenges and propose viable and practical options for resolving each challenge.
+
+**costs and budget constraints**
+A healthy road network requires routine maintenance for its full benefits to be realized. The typical asphalt road is designed to last a decade. This life span is easily extended for another five to six years if routine maintenance is carried out diligently and at the appropriate points in its life cycle.   A failure to conduct well timed routine maintenance reduces the roads lifespan to under the ten year mark and costs much more as rehabilitation or complete reconstruction of the road will eventually be required. Unfortunately many developing countries are forced to defer routine road maintenance, or completely neglect roads due to constrained finances. As budgetary constraints are often the norm in these nations, road maintenance is routinely de-prioritized in light of other pressing issues.  
+
+**Ineffective policy dilemmas**
+A lack of institutional capacity and adequate expertise in municipal and civil infrastructure planning and policy making often lead to poorly thought-out policies and ad-hoc decisions that lack a centralized vision and strategy. This naturally leads to a mismatch between stakeholder needs and what gets built or maintained. A typical example is the scenario where countries overspend on over-engineered roads and spend additional funds on rehabbing or completely rebuilding under-engineered road sections. The incoherence in strategies due to ill informed policies or a lack of data ultimately lead to waste. 
+
+**Opaque contractual arrangements with contractors and vendors**
+it is not uncommon in some parts of a developing nation to have multiple contracts  awarded for the same project and to subsequently have nothing built. ditches are dug, dirt gets pushed around but the road never gets built. In many instances, the road is simply rendered worse off than before the contract was awarded.  The lack of transparency in the processes of contracting municipal work to contractors encourage an atmosphere bereft of accountability. In such an environment, it is easy for contractors to under-perform or to fail at delivering projects as agreed upon. 
+
+**Material costs**
+A lack of data and incoherent policies for developing municipal infrastructure most assuredly lead to waste. This is untenable in cash strapped societies for obvious reasons. Yet it is common to see inefficiencies in construction methods and means regularly adopted. Every means of reducing construction costs must be considered when executing road projects in these places. One of the more obvious areas where savings can be made is in material costs. Construction materials should be sourced locally so as to reduce transportation costs. Designs that consider location from a perspective of cost savings can better balance long term durability against short term cost savings. Critical questions that challenge engineering norms have to be asked. For instance, do roads in an area full of granite deposits and a large mass of under-employed, able-bodied youths need to be built with imported asphalt and bitumen? Can the minor roads in such an area  be manually paved in local stone?  These type of considerations ought to be carefully considered.
+
+**Transportation costs**
+This piggy-backs off the previous point. Source building materials locally to reduce the cost of transporting standard road building materials. Use local transportation contractors to minimize cost. Building local capacity where none exists will create opportunities for jobs as small plants and quarries will operate in perpetuity as long as the roads exist and require maintenance. 
+
+         ''')
+st.write('*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *')
