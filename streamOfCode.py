@@ -142,11 +142,11 @@ st.write('*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   * 
 with st.container():
    st.subheader("**The Burden of Maintaining Sub-Saharan Africa's Roads**")
    st.write('Morakinyo Moronto')
-   st.image("./image_6.png")
+   st.image("./image8.png")
    image_col, text_col = st.columns((1,2))
    with image_col:
       st.image('''./image_7.png''')
-      st.image('''./image8.png''')
+      st.image('''./image_6.png''')
    with text_col:
       # st.markdown("**Eagle-eye view approach to maintenance**")
       st.write('''
