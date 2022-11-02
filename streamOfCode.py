@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from streamlit_folium import st_folium
+import folium
 
 # st.set_page_config(
 #     page_title="Aborigani!",
@@ -146,7 +148,15 @@ with st.container():
    image_col, text_col = st.columns((1,2))
    with image_col:
       st.image('''./image_7.png''')
-      st.image('''./image_6.png''')
+      m = folium.Map(location=[6.52, 3.316], zoom_start=16)
+      folium.Marker(
+          [6.52, 3.316], 
+          popup="Tinubu Square", 
+          tooltip="Tinubu Square"
+      ).add_to(m)
+
+      # call to render Folium map in Streamlit
+      st_data = st_folium(m, width = 725)
    with text_col:
       # st.markdown("**Eagle-eye view approach to maintenance**")
       st.write('''
