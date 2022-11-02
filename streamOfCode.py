@@ -1,10 +1,11 @@
+import folium
 import streamlit as st
 import pandas as pd
 import numpy as np
 from streamlit_folium import st_folium
 # import streamlit_folium as st_folium
-import streamlit_folium
-import folium
+# import streamlit_folium
+
 
 # st.set_page_config(
 #     page_title="Aborigani!",
@@ -20,7 +21,7 @@ st.title("PEUTINGAR Labs")
 # st.header("PEUTINGAR Labs")
 st.subheader("Datasets for Africa's Transportation Infrastructure")
 st.write('Morakinyo Moronto')
-st.write("Peutingar's mission is to help the Africa's fastest growing cities pave every dirt road and maintain all paved roads in the cheapest and most efficient way possible by providing access to relevant, frequently updated and affordable data at scale.")
+st.write("Peutingar's mission is to help the Africa's fastest growing cities pave every dirt road and maintain all paved roads in the cheapest and most efficient way possible. We do this by providing access to relevant, frequently updated and affordable data at scale.")
 
 
 with st.container():
@@ -150,9 +151,9 @@ with st.container():
    image_col, text_col = st.columns((1,2))
    with image_col:
       st.image('''./image_7.png''')
-      m = folium.Map(location=[6.52, 3.316], zoom_start=16)
+      m = folium.Map(location=[6.45420, 3.38934], zoom_start=11.6)
       folium.Marker(
-          [6.52, 3.316], 
+          [6.45420, 3.38934], 
           popup="Tinubu Square", 
           tooltip="Tinubu Square"
       ).add_to(m)
