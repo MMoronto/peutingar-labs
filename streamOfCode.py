@@ -160,7 +160,7 @@ with st.container():
 
       # call to render Folium map in Streamlit
       # st_data = st_folium(m, width = 725)
-      st_data = folium_static(m, width = 725)
+      st_data = folium_static(m, width = 225)
    with text_col:
       # st.markdown("**Eagle-eye view approach to maintenance**")
       st.write('''
