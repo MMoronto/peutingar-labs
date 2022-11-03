@@ -2,8 +2,8 @@ import folium
 import streamlit as st
 import pandas as pd
 import numpy as np
-from streamlit_folium import st_folium
-# import streamlit_folium as st_folium
+# from streamlit_folium import st_folium
+from streamlit_folium import folium_static
 # import streamlit_folium
 
 
@@ -159,7 +159,8 @@ with st.container():
       ).add_to(m)
 
       # call to render Folium map in Streamlit
-      st_data = st_folium(m, width = 725)
+      # st_data = st_folium(m, width = 725)
+      st_data = folium_static(m, width = 725)
    with text_col:
       # st.markdown("**Eagle-eye view approach to maintenance**")
       st.write('''
