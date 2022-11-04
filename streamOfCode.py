@@ -2,9 +2,10 @@ import folium
 import streamlit as st
 import pandas as pd
 import numpy as np
-# from streamlit_folium import st_folium
+import json
+from streamlit_folium import st_folium
 from streamlit_folium import folium_static
-# import streamlit_folium
+
 
 
 # st.set_page_config(
