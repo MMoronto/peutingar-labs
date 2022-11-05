@@ -3,8 +3,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import json
-from streamlit_folium import st_folium
-from streamlit_folium import folium_static
+# from streamlit_folium import st_folium
+# from streamlit_folium import folium_static
 
 
 
@@ -162,6 +162,12 @@ with st.container():
       # call to render Folium map in Streamlit
       # st_data = st_folium(m, width = 725)
       st_data = folium_static(m, width = 225)
+      
+      map_data = pd.DataFrame(
+          np.random.randn(100, 2) / [50, 50] + [6.46, 3.406],
+          columns=['lat', 'lon'])
+
+      st.map(map_data)
    with text_col:
       # st.markdown("**Eagle-eye view approach to maintenance**")
       st.write('''
