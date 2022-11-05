@@ -152,16 +152,16 @@ with st.container():
    image_col, text_col = st.columns((1,2))
    with image_col:
       st.image('''./image_7.png''')
-      m = folium.Map(location=[6.45420, 3.38934], zoom_start=11.6)
-      folium.Marker(
-          [6.45420, 3.38934], 
-          popup="Tinubu Square", 
-          tooltip="Tinubu Square"
-      ).add_to(m)
+      # m = folium.Map(location=[6.45420, 3.38934], zoom_start=11.6)
+      # folium.Marker(
+      #     [6.45420, 3.38934], 
+      #     popup="Tinubu Square", 
+      #     tooltip="Tinubu Square"
+      # ).add_to(m)
 
       # call to render Folium map in Streamlit
       # st_data = st_folium(m, width = 725)
-      st_data = folium_static(m, width = 225)
+      # st_data = folium_static(m, width = 225)
       
       map_data = pd.DataFrame(
           np.random.randn(100, 2) / [50, 50] + [6.46, 3.406],
