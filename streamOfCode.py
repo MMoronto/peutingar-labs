@@ -164,7 +164,7 @@ with st.container():
       # st_data = folium_static(m, width = 225)
       
       map_data = pd.DataFrame(
-          np.random.randn(100, 2) / [50, 50] + [6.46, 3.406],
+          np.random.randn(60, 2) / [60, 70] + [6.45420, 3.38934],
           columns=['lat', 'lon'])
 
       st.map(map_data)
