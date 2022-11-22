@@ -76,6 +76,12 @@ with st.container():
       st.map(map_data)
 
       x = st.slider('x')  # 👈 this is a widget
+      tripoli, cape_town = st.select_slider(
+         'Highway 1 from Tripoli-Windhoek-Cape Town', 
+         options=['Tripoli', 'Windhoek', 'Cape Town'], 
+         value=('Tripoli', 'Cape Town'), 
+         label_visibility='visible')
+      st.write('Highway 1 traverses North-South axis from', tripoli, 'through Windhoek to', cape_town)
 
       if st.checkbox('Show dataframe'):
           chart_data = pd.DataFrame(
