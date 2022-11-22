@@ -79,27 +79,27 @@ with st.container():
       cairo, dakar = st.select_slider(
          'Highway 1 from Cairo-Dakar', 
          options=['Cairo', 'Tripoli', 'Tunis', 'Algiers', 'Rabat', 'Nouakchott', 'Dakar'], 
-         value=('Cairo', 'Tripoli', 'Tunis', 'Algiers', 'Rabat', 'Nouakchott', 'Dakar'), 
+         value=('Cairo', 'Dakar'), 
          label_visibility='visible')
       algiers, lagos = st.select_slider(
          'Highway 2 from Algiers-Lagos', 
          options=['Algiers', 'Tamanrasset', 'Agadez', 'Kano', 'Lagos'], 
-         value=('Algiers', 'Tamanrasset', 'Agadez', 'Kano', 'Lagos'), 
+         value=('Algiers', 'Lagos'), 
          label_visibility='visible')      
       tripoli, cape_town = st.select_slider(
          'Highway 3 from Tripoli-Windhoek-Cape Town', 
          options=['Tripoli', 'Windhoek', 'Cape Town'], 
-         value=('Tripoli', 'Windhoek', 'Cape Town'), 
+         value=('Tripoli', 'Cape Town'), 
          label_visibility='visible')
       cairo, cape_town = st.select_slider(
          'Highway 4 from Cairo-Gaborone-Cape Town', 
          options=['Cairo', 'Gaborone', 'Cape Town'], 
-         value=('Cairo', 'Gaborone', 'Cape Town'), 
+         value=('Cairo', 'Cape Town'), 
          label_visibility='visible')
       dakar, ndjamena = st.select_slider(
          "Highway 5 from Dakar-Niamey-N'Djamena", 
          options=['Dakar', 'Bamako', 'Ouagadougou', 'Niamey', 'Kano', 'NDjamena'], 
-         value=('Dakar', 'Bamako', 'Ouagadougou', 'Niamey', 'Kano', 'NDjamena'), 
+         value=('Dakar', 'NDjamena'), 
          label_visibility='visible')      
       st.write('Highway 1 traverses 8636km W-E axis from', cairo, 'to', dakar)
       st.write('Highway 2 traverses 4504km N-S axis from', algiers, 'to', lagos)
