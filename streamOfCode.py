@@ -77,35 +77,30 @@ with st.container():
 
       x = st.slider('x')  # 👈 this is a widget
       cairo, dakar = st.select_slider(
-         'Highway 1 from Cairo-Dakar', 
+         'Highway 1 Cairo-Dakar', 
          options=['Cairo', 'Tripoli', 'Tunis', 'Algiers', 'Rabat', 'Nouakchott', 'Dakar'], 
          value=('Cairo', 'Dakar'), 
          label_visibility='visible')
       algiers, lagos = st.select_slider(
-         'Highway 2 from Algiers-Lagos', 
+         'Highway 2 Algiers-Lagos', 
          options=['Algiers', 'Tamanrasset', 'Agadez', 'Kano', 'Lagos'], 
          value=('Algiers', 'Lagos'), 
          label_visibility='visible')      
       tripoli, cape_town = st.select_slider(
-         'Highway 3 from Tripoli-Windhoek-Cape Town', 
+         'Highway 3 Tripoli-Windhoek-Cape Town', 
          options=['Tripoli', 'Windhoek', 'Cape Town'], 
          value=('Tripoli', 'Cape Town'), 
          label_visibility='visible')
       cairo, cape_town = st.select_slider(
-         'Highway 4 from Cairo-Gaborone-Cape Town', 
+         'Highway 4 Cairo-Gaborone-Cape Town', 
          options=['Cairo', 'Gaborone', 'Cape Town'], 
          value=('Cairo', 'Cape Town'), 
          label_visibility='visible')
       dakar, ndjamena = st.select_slider(
-         "Highway 5 from Dakar-Niamey-N'Djamena", 
+         "Highway 5 Dakar-Niamey-N'Djamena", 
          options=['Dakar', 'Bamako', 'Ouagadougou', 'Niamey', 'Kano', 'NDjamena'], 
          value=('Dakar', 'NDjamena'), 
-         label_visibility='visible')      
-      st.write('Highway 1 traverses 8636km W-E axis from', cairo, 'to', dakar)
-      st.write('Highway 2 traverses 4504km N-S axis from', algiers, 'to', lagos)
-      st.write('Highway 3 traverses 9610km N-S axis from', tripoli, 'to', cape_town) 
-      st.write('Highway 4 traverses 8860km N-S axis from', cairo, 'to', cape_town)
-      st.write('Highway 5 traverses 9610km N-S axis from', dakar, 'to', ndjamena)      
+         label_visibility='visible')    
 
       if st.checkbox('Show dataframe'):
           chart_data = pd.DataFrame(
@@ -141,7 +136,15 @@ with st.container():
          future. This becomes more evident as the complexities of an emergent multipolar geopolitical world order start to play out 
          in the short term and over the long term. It is conceivable that financiers from opposing geopolitical poles find a reason 
          to acknowledge common interests in funding Africa's bedrock infrastructure. A long shot? Time will tell.
+
+         ************************************************************************
          ''')
+      st.write("**Trans African Transportation Network Routes**")      
+      st.write('Hwy 1 traverses 8636 km, W-E axis connects', cairo, 'to', dakar)
+      st.write('Hwy 2 traverses 4504 km, N-S axis connects', algiers, 'to', lagos)
+      st.write('Hwy 3 traverses 9610 km, N-S axis connects', tripoli, 'to', cape_town) 
+      st.write('Hwy 4 traverses 8860 km, N-S axis connects', cairo, 'to', cape_town)
+      st.write('Hwy 5 traverses 9610 km, N-S axis connects', dakar, 'to', ndjamena)  
 st.write('*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *')
 with st.container():
    st.subheader("**Prioritizing the Discipline of Maintenance**")
