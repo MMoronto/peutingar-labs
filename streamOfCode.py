@@ -82,6 +82,12 @@ with st.container():
          value=('Tripoli', 'Cape Town'), 
          label_visibility='visible')
       st.write('Highway 1 traverses North-South axis from', tripoli, 'through Windhoek to', cape_town)
+      cairo, cape_town = st.select_slider(
+         'Highway 2 from Cairo-Gaborone-Cape Town', 
+         options=['Cairo', 'Gaborone', 'Cape Town'], 
+         value=('Cairo', 'Cape Town'), 
+         label_visibility='visible')
+      st.write('Highway 2 traverses North-South axis from', cairo, 'through Gaborone to', cape_town)
 
       if st.checkbox('Show dataframe'):
           chart_data = pd.DataFrame(
