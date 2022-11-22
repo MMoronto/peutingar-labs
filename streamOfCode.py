@@ -76,18 +76,36 @@ with st.container():
       st.map(map_data)
 
       x = st.slider('x')  # 👈 this is a widget
+      cairo, dakar = st.select_slider(
+         'Highway 1 from Cairo-Dakar', 
+         options=['Cairo', 'Tripoli', 'Tunis', 'Algiers', 'Rabat', 'Nouakchott', 'Dakar'], 
+         value=('Cairo', 'Tripoli', 'Tunis', 'Algiers', 'Rabat', 'Nouakchott', 'Dakar'), 
+         label_visibility='visible')
+      algiers, lagos = st.select_slider(
+         'Highway 2 from Algiers-Lagos', 
+         options=['Algiers', 'Tamanrasset', 'Agadez', 'Kano', 'Lagos'], 
+         value=('Algiers', 'Tamanrasset', 'Agadez', 'Kano', 'Lagos'), 
+         label_visibility='visible')      
       tripoli, cape_town = st.select_slider(
-         'Highway 1 from Tripoli-Windhoek-Cape Town', 
+         'Highway 3 from Tripoli-Windhoek-Cape Town', 
          options=['Tripoli', 'Windhoek', 'Cape Town'], 
-         value=('Tripoli', 'Cape Town'), 
+         value=('Tripoli', 'Windhoek', 'Cape Town'), 
          label_visibility='visible')
-      st.write('Highway 1 traverses North-South axis from', tripoli, 'to', cape_town)
       cairo, cape_town = st.select_slider(
-         'Highway 2 from Cairo-Gaborone-Cape Town', 
+         'Highway 4 from Cairo-Gaborone-Cape Town', 
          options=['Cairo', 'Gaborone', 'Cape Town'], 
-         value=('Cairo', 'Cape Town'), 
+         value=('Cairo', 'Gaborone', 'Cape Town'), 
          label_visibility='visible')
-      st.write('Highway 2 traverses North-South axis from', cairo, 'to', cape_town)
+      dakar, ndjamena = st.select_slider(
+         "Highway 5 from Dakar-Niamey-N'Djamena", 
+         options=['Dakar', 'Bamako', 'Ouagadougou', 'Niamey', 'Kano', 'NDjamena'], 
+         value=('Dakar', 'Bamako', 'Ouagadougou', 'Niamey', 'Kano', 'NDjamena'), 
+         label_visibility='visible')      
+      st.write('Highway 1 traverses 8636km W-E axis from', cairo, 'to', dakar)
+      st.write('Highway 2 traverses 4504km N-S axis from', algiers, 'to', lagos)
+      st.write('Highway 3 traverses 9610km N-S axis from', tripoli, 'to', cape_town) 
+      st.write('Highway 4 traverses 8860km N-S axis from', cairo, 'to', cape_town)
+      st.write('Highway 5 traverses 9610km N-S axis from', dakar, 'to', ndjamena)      
 
       if st.checkbox('Show dataframe'):
           chart_data = pd.DataFrame(
