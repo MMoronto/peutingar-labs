@@ -149,7 +149,7 @@ with st.container():
       st.write('Hwy 2 traverses 4504 km, N-S axis connects', algiers, 'to', lagos)
       st.write('Hwy 3 traverses 9610 km, N-S axis connects', tripoli, 'to', cape_town) 
       st.write('Hwy 4 traverses 8860 km, N-S axis connects', cairo, 'to', cape_town)
-      st.write('Hwy 5 traverses 9610 km, N-S axis connects', dakar, 'to', ndjamena)  
+      st.write('Hwy 5 traverses 4500 km, N-S axis connects', dakar, 'to', ndjamena)  
       st.write('Hwy 6 traverses 4220 km, N-S axis connects', ndjamena, 'to', djibouti)
 st.write('*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *')
 with st.container():
