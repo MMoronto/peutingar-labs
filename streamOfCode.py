@@ -110,7 +110,12 @@ with st.container():
          "Highway 7 Dakar-Lagos", 
          options=['Dakar', 'Conakry', 'Abidjan', 'Accra', 'Lagos'], 
          value=('Dakar', 'Lagos'), 
-         label_visibility='visible')    
+         label_visibility='visible')  
+      lagos, mombasa = st.select_slider(
+         "Highway 8 Lagos-Mombasa", 
+         options=['Lagos', 'Bangui', 'Kisangani', 'Nairobi', 'Mombasa'], 
+         value=('Lagos', 'Mombasa'), 
+         label_visibility='visible')   
 
       if st.checkbox('Show dataframe'):
           chart_data = pd.DataFrame(
@@ -156,7 +161,8 @@ with st.container():
       st.write('Hwy 4 traverses 8860 km, N-S axis connects', cairo, 'to', cape_town)
       st.write('Hwy 5 traverses 4500 km, E-W axis connects', dakar, 'to', ndjamena)  
       st.write('Hwy 6 traverses 4220 km, E-W axis connects', ndjamena, 'to', djibouti)
-      st.write('Hwy 7 traverses 4760 km, N-S axis connects', dakar, 'to', lagos)
+      st.write('Hwy 7 traverses 4760 km, E-W axis connects', dakar, 'to', lagos)
+      st.write('Hwy 8 traverses 6260 km, E-W axis connects', lagos, 'to', mombasa)
 st.write('*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *')
 with st.container():
    st.subheader("**Prioritizing the Discipline of Maintenance**")
