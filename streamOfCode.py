@@ -93,7 +93,7 @@ with st.container():
          label_visibility='visible')
       cairo, cape_town = st.select_slider(
          'Highway 4 Cairo-Gaborone-Cape Town', 
-         options=['Cairo', 'Gaborone', 'Cape Town'], 
+         options=['Cairo', 'Karthoum', 'Addis Ababa', 'Nairobi', 'Lusaka' 'Gaborone', 'Cape Town'], 
          value=('Cairo', 'Cape Town'), 
          label_visibility='visible')
       dakar, ndjamena = st.select_slider(
@@ -113,9 +113,19 @@ with st.container():
          label_visibility='visible')  
       lagos, mombasa = st.select_slider(
          "Highway 8 Lagos-Mombasa", 
-         options=['Lagos', 'Bangui', 'Kisangani', 'Nairobi', 'Mombasa'], 
+         options=['Lagos', 'Bangui', 'Kisangani', 'Kampala', 'Mombasa'], 
          value=('Lagos', 'Mombasa'), 
          label_visibility='visible')   
+      beira, lobito = st.select_slider(
+         "Highway 9 Beira-Lobito", 
+         options=['Beira', 'Harare', 'Lusaka', 'Lubumbashi', 'Lobito'], 
+         value=('Beira', 'Lobito'), 
+         label_visibility='visible')
+      kampala, bata = st.select_slider(
+         "Highway 10 Kampala-Bata", 
+         options=['kampala', 'Kinshasa', 'Brazzaville', 'Libreville', 'Bata'], 
+         value=('kampala', 'Bata'), 
+         label_visibility='visible') 
 
       if st.checkbox('Show dataframe'):
           chart_data = pd.DataFrame(
@@ -163,6 +173,8 @@ with st.container():
       st.write('Hwy 6 traverses 4220 km, E-W axis connects', ndjamena, 'to', djibouti)
       st.write('Hwy 7 traverses 4760 km, E-W axis connects', dakar, 'to', lagos)
       st.write('Hwy 8 traverses 6260 km, E-W axis connects', lagos, 'to', mombasa)
+      st.write('Hwy 9 traverses 3520 km, E-W axis connects', beira, 'to', lobito)
+      st.write('Hwy 10 traverses 3520 km, E-W axis connects', kampala, 'to', bata)
 st.write('*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *')
 with st.container():
    st.subheader("**Prioritizing the Discipline of Maintenance**")
