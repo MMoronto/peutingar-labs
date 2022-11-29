@@ -174,7 +174,7 @@ with st.container():
       st.write('Hwy 7 traverses 4760 km, E-W axis connects', dakar, 'to', lagos)
       st.write('Hwy 8 traverses 6260 km, E-W axis connects', lagos, 'to', mombasa)
       st.write('Hwy 9 traverses 3520 km, E-W axis connects', beira, 'to', lobito)
-      st.write('Hwy 10 traverses 3520 km, E-W axis connects', kampala, 'to', bata)
+      st.write('Hwy 10 traverses 4000 km, E-W axis connects', kampala, 'to', bata)
 st.write('*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *')
 with st.container():
    st.subheader("**Prioritizing the Discipline of Maintenance**")
