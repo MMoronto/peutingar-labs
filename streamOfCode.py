@@ -77,52 +77,52 @@ with st.container():
 
       x = st.slider('x')  # 👈 this is a widget
       cairo, dakar = st.select_slider(
-         'Highway 1 Cairo-Dakar', 
+         'Corridor 1 Cairo-Dakar', 
          options=['Cairo', 'Tripoli', 'Tunis', 'Algiers', 'Rabat', 'Nouakchott', 'Dakar'], 
          value=('Cairo', 'Dakar'), 
          label_visibility='visible')
       algiers, lagos = st.select_slider(
-         'Highway 2 Algiers-Lagos', 
+         'Corridor 2 Algiers-Lagos', 
          options=['Algiers', 'Tamanrasset', 'Agadez', 'Kano', 'Lagos'], 
          value=('Algiers', 'Lagos'), 
          label_visibility='visible')      
       tripoli, cape_town = st.select_slider(
-         'Highway 3 Tripoli-Windhoek-Cape Town', 
+         'Corridor 3 Tripoli-Windhoek-Cape Town', 
          options=['Tripoli', 'Windhoek', 'Cape Town'], 
          value=('Tripoli', 'Cape Town'), 
          label_visibility='visible')
       cairo, cape_town = st.select_slider(
-         'Highway 4 Cairo-Gaborone-Cape Town', 
+         'Corridor 4 Cairo-Gaborone-Cape Town', 
          options=['Cairo', 'Karthoum', 'Addis Ababa', 'Nairobi', 'Lusaka' 'Gaborone', 'Cape Town'], 
          value=('Cairo', 'Cape Town'), 
          label_visibility='visible')
       dakar, ndjamena = st.select_slider(
-         "Highway 5 Dakar-Niamey-N'Djamena", 
+         "Corridor 5 Dakar-Niamey-N'Djamena", 
          options=['Dakar', 'Bamako', 'Ouagadougou', 'Niamey', 'Kano', 'NDjamena'], 
          value=('Dakar', 'NDjamena'), 
          label_visibility='visible')
       ndjamena, djibouti = st.select_slider(
-         "Highway 6 N'Djamena-Djibouti", 
+         "Corridor 6 N'Djamena-Djibouti", 
          options=['NDjamena', 'Djibouti'], 
          value=('NDjamena', 'Djibouti'), 
          label_visibility='visible')
       dakar, lagos = st.select_slider(
-         "Highway 7 Dakar-Lagos", 
+         "Corridor 7 Dakar-Lagos", 
          options=['Dakar', 'Conakry', 'Abidjan', 'Accra', 'Lagos'], 
          value=('Dakar', 'Lagos'), 
          label_visibility='visible')  
       lagos, mombasa = st.select_slider(
-         "Highway 8 Lagos-Mombasa", 
+         "Corridor 8 Lagos-Mombasa", 
          options=['Lagos', 'Bangui', 'Kisangani', 'Kampala', 'Mombasa'], 
          value=('Lagos', 'Mombasa'), 
          label_visibility='visible')   
       beira, lobito = st.select_slider(
-         "Highway 9 Beira-Lobito", 
+         "Corridor 9 Beira-Lobito", 
          options=['Beira', 'Harare', 'Lusaka', 'Lubumbashi', 'Lobito'], 
          value=('Beira', 'Lobito'), 
          label_visibility='visible')
       kampala, bata = st.select_slider(
-         "Highway 10 Kampala-Bata", 
+         "Corridor 10 Kampala-Bata", 
          options=['kampala', 'Kinshasa', 'Brazzaville', 'Libreville', 'Bata'], 
          value=('kampala', 'Bata'), 
          label_visibility='visible') 
