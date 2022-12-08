@@ -175,6 +175,18 @@ with st.container():
       st.write('Hwy 8 traverses 6260 km, E-W axis connects', lagos, 'to', mombasa)
       st.write('Hwy 9 traverses 3520 km, E-W axis connects', beira, 'to', lobito)
       st.write('Hwy 10 traverses 4000 km, E-W axis connects', kampala, 'to', bata)
+
+      if st.checkbox('Show dataframe'):
+          chart_data = pd.DataFrame(
+             np.random.randn(20, 3),
+             columns=['a', 'b', 'c'])
+
+          chart_data
+
+      df = pd.DataFrame({
+          'first column': [1, 2, 3, 4],
+          'second column': [10, 20, 30, 40]
+          })
 st.write('*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *')
 with st.container():
    st.subheader("**Prioritizing the Discipline of Maintenance**")
