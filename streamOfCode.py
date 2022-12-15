@@ -127,17 +127,17 @@ with st.container():
          value=('kampala', 'Bata'), 
          label_visibility='visible') 
 
-      if st.checkbox('Show dataframe'):
-          chart_data = pd.DataFrame(
-             np.random.randn(20, 3),
-             columns=['a', 'b', 'c'])
+      # if st.checkbox('Show dataframe'):
+      #     chart_data = pd.DataFrame(
+      #        np.random.randn(20, 3),
+      #        columns=['a', 'b', 'c'])
 
-          chart_data
+      #     chart_data
 
-      df = pd.DataFrame({
-          'first column': [1, 2, 3, 4],
-          'second column': [10, 20, 30, 40]
-          })
+      # df = pd.DataFrame({
+      #     'first column': [1, 2, 3, 4],
+      #     'second column': [10, 20, 30, 40]
+      #     })
    with text_col:
       # st.markdown("**Trans African Transportation Networks**")
       st.write('''
