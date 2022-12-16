@@ -165,16 +165,16 @@ with st.container():
          ************************************************************************
          ''')
       st.write("**Trans African Transportation Network Routes**")      
-      st.write('Hwy 1 traverses 8636 km, W-E axis connects', cairo, 'to', dakar)
-      st.write('Hwy 2 traverses 4504 km, N-S axis connects', algiers, 'to', lagos)
-      st.write('Hwy 3 traverses 9610 km, N-S axis connects', tripoli, 'to', cape_town) 
-      st.write('Hwy 4 traverses 8860 km, N-S axis connects', cairo, 'to', cape_town)
-      st.write('Hwy 5 traverses 4500 km, E-W axis connects', dakar, 'to', ndjamena)  
-      st.write('Hwy 6 traverses 4220 km, E-W axis connects', ndjamena, 'to', djibouti)
-      st.write('Hwy 7 traverses 4760 km, E-W axis connects', dakar, 'to', lagos)
-      st.write('Hwy 8 traverses 6260 km, E-W axis connects', lagos, 'to', mombasa)
-      st.write('Hwy 9 traverses 3520 km, E-W axis connects', beira, 'to', lobito)
-      st.write('Hwy 10 traverses 4000 km, E-W axis connects', kampala, 'to', bata)
+      st.write('Corridor 1 traverses 8636 km, W-E axis connects', cairo, 'to', dakar)
+      st.write('Corridor 2 traverses 4504 km, N-S axis connects', algiers, 'to', lagos)
+      st.write('Corridor 3 traverses 9610 km, N-S axis connects', tripoli, 'to', cape_town) 
+      st.write('Corridor 4 traverses 8860 km, N-S axis connects', cairo, 'to', cape_town)
+      st.write('Corridor 5 traverses 4500 km, E-W axis connects', dakar, 'to', ndjamena)  
+      st.write('Corridor 6 traverses 4220 km, E-W axis connects', ndjamena, 'to', djibouti)
+      st.write('Corridor 7 traverses 4760 km, E-W axis connects', dakar, 'to', lagos)
+      st.write('Corridor 8 traverses 6260 km, E-W axis connects', lagos, 'to', mombasa)
+      st.write('Corridor 9 traverses 3520 km, E-W axis connects', beira, 'to', lobito)
+      st.write('Corridor 10 traverses 4000 km, E-W axis connects', kampala, 'to', bata)
 
       if st.checkbox('Show dataframe'):
           chart_data = pd.DataFrame(
